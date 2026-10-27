@@ -1,5 +1,23 @@
-# Boxing Round Counter
+# Scorecard
 
-A simple tool for keeping track of boxing rounds.
+An offline boxing scorecard app for comparing your round-by-round scores with the official judges.
 
-This project is just getting started. More details and usage instructions will be added as it develops.
+**Status: in development**
+
+## Run locally
+
+```sh
+pnpm install
+pnpm run dev
+```
+
+## Project checks
+
+```sh
+pnpm run typecheck
+pnpm run lint
+pnpm test
+pnpm run build
+```
+
+The app is being built in phases. This first phase contains only the project scaffold and navigation shell.
