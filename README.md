@@ -6,6 +6,8 @@ An offline boxing scorecard app for comparing your round-by-round scores with th
 
 ## Run locally
 
+Requires Node.js 24 or newer and pnpm 11.
+
 ```sh
 pnpm install
 pnpm run dev

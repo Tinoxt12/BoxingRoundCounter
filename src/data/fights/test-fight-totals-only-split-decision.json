@@ -1,0 +1,19 @@
+{
+  "id": "test-fight-totals-only-split-decision",
+  "title": "Test Fighter C vs Test Fighter D",
+  "date": "2000-01-02",
+  "weightClass": "Fixture division",
+  "boxers": {
+    "a": { "name": "Test Fighter C" },
+    "b": { "name": "Test Fighter D" }
+  },
+  "scheduledRounds": 12,
+  "result": { "method": "SD", "winner": "a" },
+  "judges": [
+    { "judge": "Fixture Judge One", "totalA": 115, "totalB": 113 },
+    { "judge": "Fixture Judge Two", "totalA": 113, "totalB": 115 },
+    { "judge": "Fixture Judge Three", "totalA": 116, "totalB": 112 }
+  ],
+  "sources": ["fixture"],
+  "verified": false
+}

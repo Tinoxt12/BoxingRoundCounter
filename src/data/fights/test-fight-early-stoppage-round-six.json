@@ -1,0 +1,25 @@
+{
+  "id": "test-fight-early-stoppage-round-six",
+  "title": "Test Fighter E vs Test Fighter F",
+  "date": "2000-01-03",
+  "weightClass": "Fixture division",
+  "boxers": {
+    "a": { "name": "Test Fighter E" },
+    "b": { "name": "Test Fighter F" }
+  },
+  "scheduledRounds": 12,
+  "result": {
+    "method": "TKO",
+    "winner": "b",
+    "endedInRound": 6,
+    "endedAtTime": "2:14"
+  },
+  "judges": [
+    { "judge": "Fixture Judge One", "totalA": 56, "totalB": 58 },
+    { "judge": "Fixture Judge Two", "totalA": 57, "totalB": 57 },
+    { "judge": "Fixture Judge Three", "totalA": 55, "totalB": 59 }
+  ],
+  "roundEvents": [{ "round": 4, "knockdowns": { "a": 0, "b": 1 } }],
+  "sources": ["fixture"],
+  "verified": false
+}

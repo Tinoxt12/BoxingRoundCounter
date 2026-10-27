@@ -1,0 +1,49 @@
+{
+  "id": "test-fight-round-by-round-unanimous",
+  "title": "Test Fighter A vs Test Fighter B",
+  "date": "2000-01-01",
+  "venue": "Fixture Hall",
+  "location": "Fixture City",
+  "weightClass": "Fixture division",
+  "titlesOnTheLine": [],
+  "boxers": {
+    "a": { "name": "Test Fighter A" },
+    "b": { "name": "Test Fighter B" }
+  },
+  "scheduledRounds": 3,
+  "result": { "method": "UD", "winner": "a" },
+  "judges": [
+    {
+      "judge": "Fixture Judge One",
+      "totalA": 30,
+      "totalB": 27,
+      "rounds": [
+        { "round": 1, "a": 10, "b": 9 },
+        { "round": 2, "a": 10, "b": 9 },
+        { "round": 3, "a": 10, "b": 9 }
+      ]
+    },
+    {
+      "judge": "Fixture Judge Two",
+      "totalA": 29,
+      "totalB": 28,
+      "rounds": [
+        { "round": 1, "a": 10, "b": 9 },
+        { "round": 2, "a": 9, "b": 10 },
+        { "round": 3, "a": 10, "b": 9 }
+      ]
+    },
+    {
+      "judge": "Fixture Judge Three",
+      "totalA": 29,
+      "totalB": 28,
+      "rounds": [
+        { "round": 1, "a": 9, "b": 10 },
+        { "round": 2, "a": 10, "b": 9 },
+        { "round": 3, "a": 10, "b": 9 }
+      ]
+    }
+  ],
+  "sources": ["fixture"],
+  "verified": false
+}
