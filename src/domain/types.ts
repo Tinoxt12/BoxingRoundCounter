@@ -32,6 +32,23 @@ export type RoundScore = {
   b: number;
 };
 
+export type UserRoundScore = RoundScore & {
+  pointDeductions: { a: number; b: number };
+};
+
+export type CardStatus = "in_progress" | "complete";
+
+export type CardMode = "blind" | "reveal";
+
+export type UserCard = {
+  fightId: string;
+  createdAt: string;
+  updatedAt: string;
+  rounds: UserRoundScore[];
+  status: CardStatus;
+  mode: CardMode;
+};
+
 export type JudgeCard = {
   judge: string;
   totalA: number;
