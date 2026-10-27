@@ -22,4 +22,8 @@ pnpm test
 pnpm run build
 ```
 
-The app is being built in phases. This first phase contains only the project scaffold and navigation shell.
+The app is being built in phases. Current progress includes the project scaffold, fictional fixture data with validation, and the core scoring and comparison logic.
+
+## Comparison metric
+
+The closest and furthest judge are determined by the sum of absolute differences between your and each judge's A-minus-B score margins across shared rounds. Lower distance means closer round margins. See [the metric notes](docs/scoring-and-comparison.md) for how draws, missing round data, and incomplete cards are handled.
