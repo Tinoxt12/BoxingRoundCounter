@@ -1,0 +1,66 @@
+{
+  "id": "replace-with-kebab-case-id",
+  "title": "Boxer A vs Boxer B",
+  "date": "YYYY-MM-DD",
+  "venue": "Venue name",
+  "location": "City, Country",
+  "weightClass": "Weight class",
+  "titlesOnTheLine": ["Title name"],
+  "boxers": {
+    "a": { "name": "Boxer A", "nickname": "Nickname", "country": "Country" },
+    "b": { "name": "Boxer B", "nickname": "Nickname", "country": "Country" }
+  },
+  "scheduledRounds": 12,
+  "result": {
+    "method": "UD",
+    "winner": "a",
+    "endedInRound": null,
+    "endedAtTime": null
+  },
+  "judges": [
+    {
+      "judge": "Judge name",
+      "totalA": 120,
+      "totalB": 108,
+      "rounds": [{ "round": 1, "a": 10, "b": 9 }]
+    }
+  ],
+  "roundEvents": [
+    {
+      "round": 4,
+      "knockdowns": { "a": 0, "b": 1 },
+      "pointDeductions": { "a": 1, "b": 0 }
+    }
+  ],
+  "controversy": {
+    "rating": 3,
+    "summary": "Describe the reason for this rating."
+  },
+  "sources": ["replace-with-source-url"],
+  "verified": false,
+  "roundStats": [
+    {
+      "round": 1,
+      "a": {
+        "thrown": 100,
+        "landed": 30,
+        "jabThrown": 60,
+        "jabLanded": 20,
+        "powerThrown": 40,
+        "powerLanded": 10,
+        "headLanded": 25,
+        "bodyLanded": 5
+      },
+      "b": {
+        "thrown": 100,
+        "landed": 28,
+        "jabThrown": 55,
+        "jabLanded": 18,
+        "powerThrown": 45,
+        "powerLanded": 10,
+        "headLanded": 23,
+        "bodyLanded": 5
+      }
+    }
+  ]
+}
